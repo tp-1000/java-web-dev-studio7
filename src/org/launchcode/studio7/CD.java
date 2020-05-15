@@ -1,10 +1,38 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD extends Opticaldisk implements Playablemedia{
 
-    // TODO: Implement your custom interface.
+    public void playMedia() {
+        System.out.println("CD playing");
+    }
 
-    // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-    //  need to be declared separately.
+    public void stopMedia() {
+        System.out.println("CD stopped");
+    }
+
+    public void write() {
+        System.out.println("CD data written");
+    };
+
+    public Object read() {
+        System.out.println("CD was read");
+        return "Data";
+    };
+
+    @Override
+    public String spinDisk() {
+        return "A CD spins at a rate of 200 - 500 rpm.";
+    };
+
+    @Override
+    public void load() {
+        System.out.println("CD data loaded");
+        isLoaded = true;
+    }
+
+    
+    public boolean getIsLoaded() {
+        return isLoaded;
+    }
 
 }

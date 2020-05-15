@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525a1ed1-d105-4b47-8b2b-059b1e21eee6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Opticaldisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Playablemedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/tests/musicStorageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-web-dev-studio7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-web-dev-studio7.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,21 +32,108 @@
   <component name="ProjectId" id="1TLblNw4yfHuUT4eYxfTNG8nVqg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.launchcode.studio7" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.launchcode.studio7" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.Main" />
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="musicStorageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.studio7.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.tests.musicStorageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="musicStorageTests.cdDisplaysErrorInsteadOfMetaDataIfNotLoaded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.studio7.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.tests.musicStorageTests" />
+      <option name="METHOD_NAME" value="cdDisplaysErrorInsteadOfMetaDataIfNotLoaded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="musicStorageTests.cdLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.studio7.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.tests.musicStorageTests" />
+      <option name="METHOD_NAME" value="cdLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="musicStorageTests.cdSpinDiskIsDifferentForCDAndDVD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.studio7.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.tests.musicStorageTests" />
+      <option name="METHOD_NAME" value="cdSpinDiskIsDifferentForCDAndDVD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.musicStorageTests" />
+        <item itemvalue="JUnit.musicStorageTests.cdDisplaysErrorInsteadOfMetaDataIfNotLoaded" />
+        <item itemvalue="JUnit.musicStorageTests.cdLoads" />
+        <item itemvalue="JUnit.musicStorageTests.cdSpinDiskIsDifferentForCDAndDVD" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,10 +153,50 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="892" y="339" key="#com.intellij.ide.util.MemberChooser" timestamp="1589572993678">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="892" y="339" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1589572993678" />
+    <state x="972" y="529" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589567772930">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="972" y="529" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1589567772930" />
+    <state x="793" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589570801812">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="793" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1589570801812" />
+    <state x="817" y="376" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589571669630">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="817" y="376" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1589571669630" />
+    <state width="1545" height="336" key="GridCell.Tab.0.bottom" timestamp="1589575012780">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1545" height="336" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1589575012780" />
+    <state width="1545" height="336" key="GridCell.Tab.0.center" timestamp="1589575012779">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1545" height="336" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1589575012779" />
+    <state width="1545" height="336" key="GridCell.Tab.0.left" timestamp="1589575012779">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1545" height="336" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1589575012779" />
+    <state width="1545" height="336" key="GridCell.Tab.0.right" timestamp="1589575012779">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1545" height="336" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1589575012779" />
+    <state x="827" y="523" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589567766141">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="827" y="523" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.2560.1417@0.23.2560.1417" timestamp="1589567766141" />
   </component>
 </project>
